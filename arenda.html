@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="icon" type="brook.jpg" href="brook.jpg">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Аренда</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Аренда</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="arenda.html">Аренда</a></li>
+        <li><a href="about.html">О нас</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <main>
+        <h2>Аренда автомобиля</h2>
+        <form id="form">
+          <label for="name">Имя:</label>
+          <input type="text" id="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" required>
+          <label for="phone">Телефон:</label>
+          <input type="tel" id="phone" required>
+          <label for="excursion">Выберите марку авто:</label>
+          <select id="excursion">
+            <option value="excursion1">Нисан</option>
+            <option value="excursion2">Опель</option>
+            <option value="excursion3">Москвич</option>
+            <option value="excursion3">Матиз</option>
+          </select>
+          <button type="submit">Оставить заявку</button>
+        </form>
+        <div id="message"></div>
+      </main>
+      <h2>Наши автомобили</h2>
+      <img src="opel.jpg" alt="Автомобиль 1">
+      <img src="nisan.jpg" alt="Автомобиль 2">
+      <img src="rzhviy.jpg" alt="Автомобиль 3">
+      <img src="top_tachka.jpg" alt="Автомобиль 4">
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2023 2023 Аренда авто от Кирилла. © Все права защищены.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
